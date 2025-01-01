@@ -1,0 +1,778 @@
+[01Jan2025 19:13:03.948] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    运行版本 顿顽 / arclight-1.20.1-1.0.5-1a8925b
+    构建日期 2024-02-28 14:51:40
+
+[01Jan2025 19:13:04.002] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[01Jan2025 19:13:04.004] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[01Jan2025 19:13:04.635] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[01Jan2025 19:13:04.672] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/tilin/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
+[01Jan2025 19:13:04.991] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tilin/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
+[01Jan2025 19:13:04.993] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tilin/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[01Jan2025 19:13:04.994] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tilin/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[01Jan2025 19:13:04.995] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/tilin/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[01Jan2025 19:13:05.134] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[01Jan2025 19:13:05.135] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[01Jan2025 19:13:07.043] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Jan2025 19:13:07.189] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[01Jan2025 19:13:07.195] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[01Jan2025 19:13:07.235] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[01Jan2025 19:13:07.237] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[01Jan2025 19:13:07.241] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
+[01Jan2025 19:13:07.289] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Jan2025 19:13:07.340] [main/INFO] [BadOptimizations/]: Loading config from /workspaces/tilin/servidor_minecraft/config/badoptimizations.txt
+[01Jan2025 19:13:07.340] [main/INFO] [BadOptimizations/]: Config version: 3
+[01Jan2025 19:13:07.340] [main/INFO] [BadOptimizations/]: BadOptimizations config dump:
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_toast_optimizations: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: ignore_mod_incompatibilities: false
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: lightmap_time_change_needed_for_update: 80
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_lightmap_caching: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_particle_manager_optimization: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_entity_renderer_caching: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: log_config: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_remove_redundant_fov_calculations: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: config_version: 3
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_sky_angle_caching_in_worldrenderer: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_block_entity_renderer_caching: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: skycolor_time_change_needed_for_update: 3
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_entity_flag_caching: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_debug_renderer_disable_if_not_needed: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_sky_color_caching: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: enable_remove_tutorial_if_not_demo: true
+[01Jan2025 19:13:07.341] [main/INFO] [BadOptimizations/]: show_f3_text: true
+[01Jan2025 19:13:07.357] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Jan2025 19:13:08.886] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[01Jan2025 19:13:08.893] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[01Jan2025 19:13:08.894] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
+[01Jan2025 19:13:08.897] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[01Jan2025 19:13:08.898] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[01Jan2025 19:13:08.898] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
+[01Jan2025 19:13:10.749] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[01Jan2025 19:13:18.508] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@64e7d698 on thread Thread[modloading-worker-0,5,main]
+[01Jan2025 19:13:18.508] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2386!/:?] {}
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2386!/:?] {}
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2386!/:?] {}
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2386!/:6.0.5+6.0.5+master.eb8e549b] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?] {}
+	at java.lang.System$2.defineClass(System.java:2324) ~[?:?] {}
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439) ~[?:?] {}
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420) ~[?:?] {}
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127) ~[?:?] {re:mixin}
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407) ~[?:?] {}
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315) ~[?:?] {}
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?] {}
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?] {}
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?] {}
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?] {re:mixin}
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281) ~[?:?] {}
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271) ~[?:?] {}
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15%20(1).jar%23230!/:com.obscuria] {re:classloading}
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15%20(1).jar%23230!/:com.obscuria] {re:classloading}
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15%20(1).jar%23230!/:com.obscuria] {re:classloading}
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15%20(1).jar%23230!/:com.obscuria] {re:classloading}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.20.jar%23245!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.20.jar%23244!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+[01Jan2025 19:13:18.509] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[01Jan2025 19:13:18.785] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.3.2 in server-side mode on FORGE!
+[01Jan2025 19:13:18.863] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[01Jan2025 19:13:18.865] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[01Jan2025 19:13:18.869] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[01Jan2025 19:13:18.918] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[01Jan2025 19:13:18.922] [modloading-worker-0/INFO] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Starting...
+[01Jan2025 19:13:18.922] [modloading-worker-0/WARN] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Not supported on dedicated server!
+[01Jan2025 19:13:18.940] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[01Jan2025 19:13:18.959] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[01Jan2025 19:13:18.959] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
+[01Jan2025 19:13:18.964] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[01Jan2025 19:13:18.965] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[01Jan2025 19:13:20.448] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[01Jan2025 19:13:20.538] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models Initialized
+[01Jan2025 19:13:20.560] [modloading-worker-0/INFO] [com.chunksending.ChunkSending/]: chunksending mod initialized
+[01Jan2025 19:13:20.596] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[01Jan2025 19:13:20.612] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[01Jan2025 19:13:20.612] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[01Jan2025 19:13:20.623] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[01Jan2025 19:13:20.624] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[01Jan2025 19:13:20.626] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[01Jan2025 19:13:20.810] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[01Jan2025 19:13:20.812] [modloading-worker-0/INFO] [CPM/]: Customizable Player Models API initialized: Loaded plugins: (0)
+
+[01Jan2025 19:13:20.861] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/tilin/servidor_minecraft/config/badmobs-common.toml is not correct. Correcting
+[01Jan2025 19:13:20.865] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.tortuga_netherita was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Jan2025 19:13:20.865] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.tortuga_netherita.allowNormalSpawning was corrected from null to its default, true. 
+[01Jan2025 19:13:20.865] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.tortuga_netherita.allowSpawners was corrected from null to its default, true. 
+[01Jan2025 19:13:20.866] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.tortuga_netherita.allowSpawnEggs was corrected from null to its default, true. 
+[01Jan2025 19:13:20.866] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.tortuga_netherita.allowConversions was corrected from null to its default, true. 
+[01Jan2025 19:13:20.866] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.sapito was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Jan2025 19:13:20.866] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.sapito.allowNormalSpawning was corrected from null to its default, true. 
+[01Jan2025 19:13:20.866] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.sapito.allowSpawners was corrected from null to its default, true. 
+[01Jan2025 19:13:20.867] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.sapito.allowSpawnEggs was corrected from null to its default, true. 
+[01Jan2025 19:13:20.867] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.sapito.allowConversions was corrected from null to its default, true. 
+[01Jan2025 19:13:20.867] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.gorgona was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Jan2025 19:13:20.868] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.gorgona.allowNormalSpawning was corrected from null to its default, true. 
+[01Jan2025 19:13:20.868] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.gorgona.allowSpawners was corrected from null to its default, true. 
+[01Jan2025 19:13:20.869] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.gorgona.allowSpawnEggs was corrected from null to its default, true. 
+[01Jan2025 19:13:20.869] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modminds.gorgona.allowConversions was corrected from null to its default, true. 
+[01Jan2025 19:13:21.244] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.20.jar%23244!/:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.20.jar%23244!/:?] {}
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	... 6 more
+[01Jan2025 19:13:21.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[01Jan2025 19:13:21.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[01Jan2025 19:13:21.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[01Jan2025 19:13:21.505] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[01Jan2025 19:13:21.505] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Starting version check at https://raw.githubusercontent.com/tom5454/CustomPlayerModels/master/version-check.json
+[01Jan2025 19:13:21.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cpm] Found status: BETA Current: 0.6.19a Target: 0.6.19a
+[01Jan2025 19:13:21.592] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Starting version check at https://mc-update-check.anthonyhilyard.com/513769
+[01Jan2025 19:13:21.625] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [itemborders] Found status: OUTDATED Current: 1.2.1 Target: 1.2.2
+[01Jan2025 19:13:21.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[01Jan2025 19:13:22.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[01Jan2025 19:13:22.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterf3] Starting version check at https://api.modrinth.com/updates/betterf3/forge_updates.json
+[01Jan2025 19:13:22.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterf3] Found status: OUTDATED Current: 7.0.1 Target: 7.0.2
+[01Jan2025 19:13:22.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[01Jan2025 19:13:22.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.24 Target: 1.20.1-2.5.27
+[01Jan2025 19:13:22.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[01Jan2025 19:13:22.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.5 Target: 1.20.1-1.4.8
+[01Jan2025 19:13:22.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Jan2025 19:13:22.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.20 Target: 47.3.0
+[01Jan2025 19:13:22.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[01Jan2025 19:13:22.982] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.20.jar%23244!/:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.20.jar%23244!/:?] {}
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	... 6 more
+[01Jan2025 19:13:23.094] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Jan2025 19:13:23.187] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+modminds (version 1.0.4 -> 1.0.5)
+Things may not work well.
+[01Jan2025 19:13:23.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:ladrillos_de_fortaleza Expected: 1080 Got: 1166
+[01Jan2025 19:13:23.274] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_ladrillos_de_fortaleza Expected: 1081 Got: 1186
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_ladrillos_de_fortaleza Expected: 1082 Got: 1187
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:muro_de_ladrillos_de_fortaleza Expected: 1083 Got: 1188
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:muro_de_ladrillos_de_fortaleza_cincelado Expected: 1084 Got: 1189
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:ladrillo_de_fortaleza_cincelado Expected: 1085 Got: 1190
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_ladrillo_de_fortaleza_cincelado Expected: 1086 Got: 1191
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_ladrillo_de_fortaleza_cincelado Expected: 1087 Got: 1192
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_templo_negro Expected: 1088 Got: 1193
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_templo_negro Expected: 1089 Got: 1194
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escalera_de_cristal_de_templo_negro Expected: 1090 Got: 1195
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio Expected: 1091 Got: 1196
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_rojo Expected: 1092 Got: 1197
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_rojo Expected: 1093 Got: 1198
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_rojo Expected: 1094 Got: 1199
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_reforzado Expected: 1095 Got: 1200
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:piso_escenario Expected: 1096 Got: 1201
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:piso_escenario_degradado Expected: 1097 Got: 1202
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_morado Expected: 1098 Got: 1203
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_morado Expected: 1099 Got: 1204
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_morado Expected: 1100 Got: 1205
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_azul Expected: 1101 Got: 1206
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_azul Expected: 1102 Got: 1207
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_azul Expected: 1103 Got: 1208
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:estatua_echada Expected: 1104 Got: 1209
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:estatua_sentado Expected: 1105 Got: 1210
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:estatua_crucificado Expected: 1106 Got: 1211
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_cian Expected: 1107 Got: 1212
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_cian Expected: 1108 Got: 1213
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_cian Expected: 1109 Got: 1214
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_rosado Expected: 1110 Got: 1215
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_rosado Expected: 1111 Got: 1216
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escalera_de_cristal_de_dilitio_rosado Expected: 1112 Got: 1217
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_anaranjado Expected: 1113 Got: 1218
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_anaranjado Expected: 1114 Got: 1219
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_anaranjado Expected: 1115 Got: 1220
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_amarillo Expected: 1116 Got: 1221
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_amarillo Expected: 1117 Got: 1222
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_amarillo Expected: 1118 Got: 1223
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:mineral_de_nereida Expected: 1119 Got: 1224
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:piso_borg Expected: 1120 Got: 1225
+[01Jan2025 19:13:23.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_piso_borg Expected: 1121 Got: 1226
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_piso_borg Expected: 1122 Got: 1227
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:pilar_borg Expected: 1123 Got: 1228
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_pilar_borg Expected: 1124 Got: 1229
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_pilar_borg Expected: 1125 Got: 1230
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:pared_borg Expected: 1126 Got: 1231
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_pared_borg Expected: 1127 Got: 1232
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_pared_borg Expected: 1128 Got: 1233
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:ladrillo_de_piso_borg Expected: 1129 Got: 1234
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_ladrillo_de_piso_borg Expected: 1130 Got: 1235
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_ladrillo_de_piso_borg Expected: 1131 Got: 1236
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:ladrillo_borg Expected: 1132 Got: 1237
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_ladrillo_borg Expected: 1133 Got: 1238
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_ladrillo_borg Expected: 1134 Got: 1239
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:bloque_borg_cincelado Expected: 1135 Got: 1240
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_bloque_borg_cincelado Expected: 1136 Got: 1241
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_bloque_borg_cincelado Expected: 1137 Got: 1242
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:bloque_borg Expected: 1138 Got: 1243
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:losa_de_bloque_borg Expected: 1139 Got: 1244
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:escaleras_de_bloque_borg Expected: 1140 Got: 1245
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:barricada_de_seguridad Expected: 1141 Got: 1246
+[01Jan2025 19:13:23.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: modminds:cono_de_seguridad Expected: 1142 Got: 1247
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cuchara_de_resurreccion Expected: 1428 Got: 1853
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:tenedor_de_resurreccion Expected: 1429 Got: 1883
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:tortuga_netherita_spawn_egg Expected: 1430 Got: 1969
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:ladrillos_de_fortaleza Expected: 1431 Got: 1970
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_ladrillos_de_fortaleza Expected: 1432 Got: 1971
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_ladrillos_de_fortaleza Expected: 1433 Got: 1972
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:muro_de_ladrillos_de_fortaleza Expected: 1434 Got: 1973
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:muro_de_ladrillos_de_fortaleza_cincelado Expected: 1435 Got: 1974
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:ladrillo_de_fortaleza_cincelado Expected: 1436 Got: 1975
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_ladrillo_de_fortaleza_cincelado Expected: 1437 Got: 1976
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_ladrillo_de_fortaleza_cincelado Expected: 1438 Got: 1977
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:anvil_plateado Expected: 1439 Got: 1978
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cuchara_normal Expected: 1440 Got: 1979
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:tenedor_normal Expected: 1441 Got: 1980
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:pepita_de_dilitio Expected: 1442 Got: 1981
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:gema_de_dilitio Expected: 1443 Got: 1982
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:semilla_de_palta Expected: 1444 Got: 1983
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:palta Expected: 1445 Got: 1984
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_templo_negro Expected: 1446 Got: 1985
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_templo_negro Expected: 1447 Got: 1986
+[01Jan2025 19:13:23.277] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escalera_de_cristal_de_templo_negro Expected: 1448 Got: 1987
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio Expected: 1449 Got: 1988
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_rojo Expected: 1450 Got: 1989
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_rojo Expected: 1451 Got: 1990
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_rojo Expected: 1452 Got: 1991
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cuerno_de_infernal_bull Expected: 1453 Got: 1992
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:sapito_spawn_egg Expected: 1454 Got: 1993
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:pepita_de_acero_negro_aurero Expected: 1455 Got: 1994
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:lamina_reforzada_de_acero_negro_aureo Expected: 1456 Got: 1995
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:lingote_de_acero_negro_aureo Expected: 1457 Got: 1996
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:ojo_de_sapo Expected: 1458 Got: 1997
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_reforzado Expected: 1459 Got: 1998
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:fragmento_de_corona_de_wildfire Expected: 1460 Got: 1999
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:piso_escenario Expected: 1461 Got: 2000
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:piso_escenario_degradado Expected: 1462 Got: 2001
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:armadura_infernal_helmet Expected: 1463 Got: 2002
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:armadura_infernal_chestplate Expected: 1464 Got: 2003
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:armadura_infernal_leggings Expected: 1465 Got: 2004
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:armadura_infernal_boots Expected: 1466 Got: 2005
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:motor_de_dilitio Expected: 1467 Got: 2006
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:placa_de_wildfire Expected: 1468 Got: 2007
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:gema_de_nereida Expected: 1469 Got: 2008
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:pepita_de_gema_de_nereida Expected: 1470 Got: 2009
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_morado Expected: 1471 Got: 2010
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_morado Expected: 1472 Got: 2011
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_morado Expected: 1473 Got: 2012
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_azul Expected: 1474 Got: 2013
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_azul Expected: 1475 Got: 2014
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_azul Expected: 1476 Got: 2015
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:gorgona_spawn_egg Expected: 1477 Got: 2016
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:estatua_echada Expected: 1478 Got: 2017
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:estatua_sentado Expected: 1479 Got: 2018
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:estatua_crucificado Expected: 1480 Got: 2019
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_cian Expected: 1481 Got: 2020
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_cian Expected: 1482 Got: 2021
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_cian Expected: 1483 Got: 2022
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_rosado Expected: 1484 Got: 2023
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_rosado Expected: 1485 Got: 2024
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escalera_de_cristal_de_dilitio_rosado Expected: 1486 Got: 2025
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_anaranjado Expected: 1487 Got: 2026
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_anaranjado Expected: 1488 Got: 2027
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_anaranjado Expected: 1489 Got: 2028
+[01Jan2025 19:13:23.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cristal_de_dilitio_amarillo Expected: 1490 Got: 2029
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_cristal_de_dilitio_amarillo Expected: 1491 Got: 2030
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_cristal_de_dilitio_amarillo Expected: 1492 Got: 2031
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:armaduras_naoneim_helmet Expected: 1493 Got: 2032
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:armaduras_naoneim_chestplate Expected: 1494 Got: 2033
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:armaduras_naoneim_leggings Expected: 1495 Got: 2034
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:armaduras_naoneim_boots Expected: 1496 Got: 2035
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:plantilla_de_mejora_de_dilitio Expected: 1497 Got: 2036
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:lingote_de_hierro_reforzado Expected: 1498 Got: 2037
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:mineral_de_nereida Expected: 1499 Got: 2038
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:piso_borg Expected: 1500 Got: 2039
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_piso_borg Expected: 1501 Got: 2040
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_piso_borg Expected: 1502 Got: 2041
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:pilar_borg Expected: 1503 Got: 2042
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_pilar_borg Expected: 1504 Got: 2043
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_pilar_borg Expected: 1505 Got: 2044
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:pared_borg Expected: 1506 Got: 2045
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_pared_borg Expected: 1507 Got: 2046
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_pared_borg Expected: 1508 Got: 2047
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:ladrillo_de_piso_borg Expected: 1509 Got: 2048
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_ladrillo_de_piso_borg Expected: 1510 Got: 2049
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_ladrillo_de_piso_borg Expected: 1511 Got: 2050
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:ladrillo_borg Expected: 1512 Got: 2051
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_ladrillo_borg Expected: 1513 Got: 2052
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_ladrillo_borg Expected: 1514 Got: 2053
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:bloque_borg_cincelado Expected: 1515 Got: 2054
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_bloque_borg_cincelado Expected: 1516 Got: 2055
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_bloque_borg_cincelado Expected: 1517 Got: 2056
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:bloque_borg Expected: 1518 Got: 2057
+[01Jan2025 19:13:23.279] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:losa_de_bloque_borg Expected: 1519 Got: 2058
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:escaleras_de_bloque_borg Expected: 1520 Got: 2059
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:barricada_de_seguridad Expected: 1521 Got: 2060
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cono_de_seguridad Expected: 1522 Got: 2061
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:cerveza Expected: 1523 Got: 2062
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:papas_fritas Expected: 1524 Got: 2063
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:hamburguesa Expected: 1525 Got: 2064
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:rabanagua Expected: 1526 Got: 2065
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: modminds:fragmento_de_hueso Expected: 1527 Got: 2066
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: modminds:textura_gorgona_congelado Expected: 42 Got: 89
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: modminds:tortuga_netherita Expected: 147 Got: 308
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: modminds:sapito Expected: 148 Got: 309
+[01Jan2025 19:13:23.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: modminds:gorgona Expected: 149 Got: 310
+[01Jan2025 19:13:24.010] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/tilin/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23243!/assets/.mcassetsroot' uses unexpected schema
+[01Jan2025 19:13:24.010] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/tilin/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23243!/data/.mcassetsroot' uses unexpected schema
+[01Jan2025 19:13:26.421] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dedsafio3:llave_crafteo
+com.google.gson.JsonSyntaxException: Empty ingredient not allowed here
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipeMixin.java:295) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.item.crafting.ShapedRecipeMixin,pl:mixin:A}
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(IngredientMixin.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.item.crafting.IngredientMixin,pl:mixin:A}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.20-universal.jar%23248!/:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.20-universal.jar%23248!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(IngredientMixin.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.item.crafting.IngredientMixin,pl:mixin:A}
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipeMixin.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.item.crafting.ShapedRecipeMixin,pl:mixin:A}
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:classloading}
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:classloading}
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23248!/:?] {re:classloading}
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManagerMixin.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.item.crafting.RecipeManagerMixin,pl:mixin:A}
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManagerMixin.java:571) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.item.crafting.RecipeManagerMixin,pl:mixin:A}
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManagerMixin.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:world.item.crafting.RecipeManagerMixin,pl:mixin:A}
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:classloading,re:mixin}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:classloading}
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,re:classloading}
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23103!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23103!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23103!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at io.izzel.arclight.boot.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:46) ~[vanilla.jar:arclight-1.20.1-1.0.5-1a8925b] {}
+	at io.izzel.arclight.boot.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:13) ~[vanilla.jar:arclight-1.20.1-1.0.5-1a8925b] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at io.izzel.arclight.boot.application.Main_Forge.main(Main_Forge.java:23) ~[vanilla.jar%2383!/:arclight-1.20.1-1.0.5-1a8925b] {}
+	at io.izzel.arclight.server.Launcher.main(Launcher.java:18) ~[vanilla.jar%2383!/:arclight-1.20.1-1.0.5-1a8925b] {}
+[01Jan2025 19:13:26.432] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[01Jan2025 19:13:26.528] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1330 advancements
+[01Jan2025 19:13:26.536] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[01Jan2025 19:13:26.541] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[01Jan2025 19:13:27.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[01Jan2025 19:13:27.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jan2025 19:13:27.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jan2025 19:13:27.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jan2025 19:13:27.476] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jan2025 19:13:27.500] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jan2025 19:13:27.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jan2025 19:13:27.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jan2025 19:13:27.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jan2025 19:13:27.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jan2025 19:13:27.882] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.5-1a8925b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[01Jan2025 19:13:28.435] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[01Jan2025 19:13:28.534] [Server thread/INFO] [Arclight/]: 注册了 817 个材料，其中 245 个方块 572 个物品
+[01Jan2025 19:13:28.536] [Server thread/INFO] [Arclight/]: 注册了 58 个新的药水效果
+[01Jan2025 19:13:28.547] [Server thread/INFO] [Arclight/]: 注册了 45 个新的附魔
+[01Jan2025 19:13:28.577] [Server thread/INFO] [Arclight/]: 注册了 187 个新的生物类型
+[01Jan2025 19:13:28.579] [Server thread/INFO] [Arclight/]: 注册了 2 个新的村民职业
+[01Jan2025 19:13:28.580] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物群系
+[01Jan2025 19:13:28.609] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[01Jan2025 19:13:28.612] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[01Jan2025 19:13:28.613] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[01Jan2025 19:13:28.860] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/ChangeSkinBukkit.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:435) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.handler$zlo000$arclight$loadPlugins(DedicatedServerMixin.java:641) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:158) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[01Jan2025 19:13:28.875] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[01Jan2025 19:13:29.408] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[01Jan2025 19:13:29.510] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/worldedit-bukkit-7.3.8.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoaderMixin.java:149) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading}
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:435) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.handler$zlo000$arclight$loadPlugins(DedicatedServerMixin.java:641) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:158) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+Caused by: java.lang.UnsupportedClassVersionError: com/sk89q/worldedit/bukkit/WorldEditPlugin has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {re:mixin}
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?] {re:mixin}
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?] {re:mixin}
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoaderMixin.java:643) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:PluginClassLoaderMixin,pl:mixin:A}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?] {re:mixin}
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoaderMixin.java:104) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:PluginClassLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoaderMixin.java:99) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:PluginClassLoaderMixin,pl:mixin:A}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {re:mixin}
+	at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.forName(Class.java:467) ~[?:?] {re:mixin}
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoaderMixin.java:67) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:PluginClassLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoaderMixin.java:145) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	... 8 more
+[01Jan2025 19:13:29.560] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loading 5 libraries... please wait
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[01Jan2025 19:13:29.694] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[01Jan2025 19:13:29.695] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[01Jan2025 19:13:29.695] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[01Jan2025 19:13:29.695] [Server thread/INFO] [Minecraft/]: [ItemEdit] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
+[01Jan2025 19:13:29.722] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/WorldGuard-Plugin-1.20.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency WorldEdit. Please download and install WorldEdit to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:435) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.handler$zlo000$arclight$loadPlugins(DedicatedServerMixin.java:641) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:158) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[01Jan2025 19:13:29.755] [Server thread/INFO] [Minecraft/]: [Citizens] Loading 5 libraries... please wait
+[01Jan2025 19:13:29.796] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
+[01Jan2025 19:13:29.797] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
+[01Jan2025 19:13:29.797] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
+[01Jan2025 19:13:29.797] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[01Jan2025 19:13:29.797] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[01Jan2025 19:13:29.798] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded library /workspaces/tilin/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[01Jan2025 19:13:30.210] [Server thread/INFO] [ModMindsPlugins/]: Loading ModMindsPlugins v1.0.4
+[01Jan2025 19:13:30.210] [Server thread/INFO] [AnimationsCore/]: Loading AnimationsCore v0.1-SNAPSHOT
+[01Jan2025 19:13:30.210] [Server thread/INFO] [ItemEdit/]: Loading ItemEdit v3.5.5
+[01Jan2025 19:13:30.210] [Server thread/INFO] [Citizens/]: Loading Citizens v2.0.36-SNAPSHOT (build 3637)
+[01Jan2025 19:13:30.210] [Server thread/INFO] [ConditionalEvents/]: Loading ConditionalEvents v4.58.1
+[01Jan2025 19:13:30.210] [Server thread/INFO] [BeautyQuests/]: Loading BeautyQuests v1.0.4
+[01Jan2025 19:13:30.221] [Server thread/INFO] [Shopkeepers/]: Loading Shopkeepers v2.17.2
+[01Jan2025 19:13:30.590] [Server thread/INFO] [Shopkeepers/]: Loaded all plugin classes (368 ms).
+[01Jan2025 19:13:30.650] [Server thread/INFO] [Shopkeepers/]: Loading config.
+[01Jan2025 19:13:30.684] [Server thread/INFO] [Shopkeepers/]: Loading language file: language-en-default.yml
+[01Jan2025 19:13:30.709] [Server thread/INFO] [Shopkeepers/]: Registering defaults.
+[01Jan2025 19:13:30.712] [Server thread/INFO] [ItemTag/]: Loading ItemTag v3.5.1
+[01Jan2025 19:13:30.845] [Server thread/INFO] [spark/]: Starting background profiler...
+[01Jan2025 19:13:31.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jan2025 19:13:31.350] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
+[01Jan2025 19:13:31.852] [Server thread/INFO] [Minecraft/]: -------- World Settings For [DEDSAFIO 3 - By TheNeitorLoL] --------
+[01Jan2025 19:13:31.852] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Jan2025 19:13:31.853] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Jan2025 19:13:31.854] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Jan2025 19:13:31.854] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Jan2025 19:13:31.854] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Jan2025 19:13:31.854] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Jan2025 19:13:31.854] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Jan2025 19:13:31.855] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Jan2025 19:13:31.855] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Jan2025 19:13:31.855] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Jan2025 19:13:31.855] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Jan2025 19:13:31.856] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Jan2025 19:13:31.856] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[01Jan2025 19:13:31.856] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Jan2025 19:13:34.957] [Server thread/INFO] [Minecraft/]: -------- World Settings For [DEDSAFIO 3 - By TheNeitorLoL/DIM-1] --------
+[01Jan2025 19:13:34.957] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Jan2025 19:13:34.957] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Jan2025 19:13:34.957] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[01Jan2025 19:13:34.958] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Jan2025 19:13:34.958] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Jan2025 19:13:34.958] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[01Jan2025 19:13:34.959] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Jan2025 19:13:34.991] [Server thread/INFO] [Minecraft/]: -------- World Settings For [DEDSAFIO 3 - By TheNeitorLoL/DIM1] --------
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Jan2025 19:13:34.992] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Jan2025 19:13:34.993] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Jan2025 19:13:34.994] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Jan2025 19:13:34.994] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Jan2025 19:13:34.995] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Jan2025 19:13:34.995] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Jan2025 19:13:34.995] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Jan2025 19:13:34.995] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Jan2025 19:13:34.995] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[01Jan2025 19:13:34.995] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Jan2025 19:13:35.014] [Server thread/INFO] [ModMindsPlugins/]: Enabling ModMindsPlugins v1.0.4
+[01Jan2025 19:13:35.029] [Server thread/INFO] [ModMindsPlugins/]: ModMindsPlugins activado: configuración inicial cargada.
+[01Jan2025 19:13:35.030] [Server thread/INFO] [AnimationsCore/]: Enabling AnimationsCore v0.1-SNAPSHOT
+[01Jan2025 19:13:35.268] [Server thread/INFO] [ItemEdit/]: Enabling ItemEdit v3.5.5
+[01Jan2025 19:13:35.357] [Server thread/INFO] [Console/]: [ItemEdit] Selected Storage Type: YAML
+[01Jan2025 19:13:35.391] [Server thread/INFO] [Console/]: [ItemEdit] Unable to hook into Vault
+[01Jan2025 19:13:35.398] [Server thread/INFO] [Console/]: [ItemEdit] # Enabled (took 130 ms)
+[01Jan2025 19:13:35.402] [Server thread/INFO] [Citizens/]: Enabling Citizens v2.0.36-SNAPSHOT (build 3637)
+[01Jan2025 19:13:36.382] [Server thread/ERROR] [Minecraft/]: [Citizens] v2.0.36-SNAPSHOT (build 3637) is not compatible with Minecraft v1_20_R1 - try upgrading Minecraft or Citizens. Disabling...
+[01Jan2025 19:13:36.383] [Server thread/INFO] [Citizens/]: Disabling Citizens v2.0.36-SNAPSHOT (build 3637)
+[01Jan2025 19:13:36.390] [Server thread/INFO] [ConditionalEvents/]: Enabling ConditionalEvents v4.58.1
+[01Jan2025 19:13:36.452] [Server thread/INFO] [Console/]: [ConditionalEvents] Has been enabled! Version: 4.58.1
+[01Jan2025 19:13:36.452] [Server thread/INFO] [Console/]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[01Jan2025 19:13:36.639] [Server thread/INFO] [Console/]: There is a new version available. (4.59.1)
+[01Jan2025 19:13:36.639] [Server thread/INFO] [Console/]: You can download it at: https://modrinth.com/plugin/conditionalevents
+[01Jan2025 19:13:36.644] [Server thread/INFO] [BeautyQuests/]: Enabling BeautyQuests v1.0.4
+[01Jan2025 19:13:36.644] [Server thread/INFO] [BeautyQuests/]: ------------ BeautyQuests ------------
+[01Jan2025 19:13:36.646] [Server thread/WARN] [BeautyQuests/]: You are not running the Paper software.
+It is highly recommended to use it for extended features and more stability.
+[01Jan2025 19:13:36.650] [Server thread/INFO] [BeautyQuests/]: Loaded valid Minecraft version 1_20_R1.
+[01Jan2025 19:13:36.740] [Server thread/INFO] [BeautyQuests/]: Loaded language en_US (0.037s)!
+[01Jan2025 19:13:36.762] [Server thread/WARN] [BeautyQuests/]: Loading of start particles failed: Invalid particle, color or shape.
+java.lang.IllegalArgumentException: No enum constant org.bukkit.Particle.DUST
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?] {re:mixin,re:mixin}
+	at org.bukkit.Particle.valueOf(Particle.java:1) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:classloading}
+	at fr.skytasul.quests.utils.ParticleEffect.deserialize(ParticleEffect.java:129) ~[?:?] {}
+	at fr.skytasul.quests.QuestsConfigurationImplementation.loadParticles(QuestsConfigurationImplementation.java:166) ~[?:?] {}
+	at fr.skytasul.quests.QuestsConfigurationImplementation.init(QuestsConfigurationImplementation.java:114) ~[?:?] {}
+	at fr.skytasul.quests.BeautyQuests.loadConfigParameters(BeautyQuests.java:385) ~[?:?] {}
+	at fr.skytasul.quests.BeautyQuests.onEnable(BeautyQuests.java:150) ~[?:?] {}
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPluginMixin.java:266) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginMixin,pl:mixin:A}
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoaderMixin.java:342) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServerMixin.java:546) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServerMixin.java:460) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A,re:mixin}
+	at net.minecraft.server.MinecraftServer.handler$zle000$arclight$enablePlugins(MinecraftServerMixin.java:2137) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServerMixin.java:385) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServerMixin.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[01Jan2025 19:13:36.762] [Server thread/INFO] [BeautyQuests/]: Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
+[01Jan2025 19:13:36.762] [Server thread/WARN] [BeautyQuests/]: Loading of talk particles failed: Invalid particle, color or shape.
+java.lang.IllegalArgumentException: No enum constant org.bukkit.Particle.HAPPY_VILLAGER
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?] {re:mixin,re:mixin}
+	at org.bukkit.Particle.valueOf(Particle.java:1) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:classloading}
+	at fr.skytasul.quests.utils.ParticleEffect.deserialize(ParticleEffect.java:129) ~[?:?] {}
+	at fr.skytasul.quests.QuestsConfigurationImplementation.loadParticles(QuestsConfigurationImplementation.java:166) ~[?:?] {}
+	at fr.skytasul.quests.QuestsConfigurationImplementation.init(QuestsConfigurationImplementation.java:116) ~[?:?] {}
+	at fr.skytasul.quests.BeautyQuests.loadConfigParameters(BeautyQuests.java:385) ~[?:?] {}
+	at fr.skytasul.quests.BeautyQuests.onEnable(BeautyQuests.java:150) ~[?:?] {}
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPluginMixin.java:266) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginMixin,pl:mixin:A}
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoaderMixin.java:342) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServerMixin.java:546) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServerMixin.java:460) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A,re:mixin}
+	at net.minecraft.server.MinecraftServer.handler$zle000$arclight$enablePlugins(MinecraftServerMixin.java:2137) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServerMixin.java:385) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServerMixin.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[01Jan2025 19:13:36.763] [Server thread/INFO] [BeautyQuests/]: Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[01Jan2025 19:13:36.763] [Server thread/WARN] [BeautyQuests/]: Loading of next particles failed: Invalid particle, color or shape.
+java.lang.IllegalArgumentException: No enum constant org.bukkit.Particle.SMOKE
+	at java.lang.Enum.valueOf(Enum.java:273) ~[?:?] {re:mixin,re:mixin}
+	at org.bukkit.Particle.valueOf(Particle.java:1) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:classloading}
+	at fr.skytasul.quests.utils.ParticleEffect.deserialize(ParticleEffect.java:129) ~[?:?] {}
+	at fr.skytasul.quests.QuestsConfigurationImplementation.loadParticles(QuestsConfigurationImplementation.java:166) ~[?:?] {}
+	at fr.skytasul.quests.QuestsConfigurationImplementation.init(QuestsConfigurationImplementation.java:119) ~[?:?] {}
+	at fr.skytasul.quests.BeautyQuests.loadConfigParameters(BeautyQuests.java:385) ~[?:?] {}
+	at fr.skytasul.quests.BeautyQuests.onEnable(BeautyQuests.java:150) ~[?:?] {}
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPluginMixin.java:266) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginMixin,pl:mixin:A}
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoaderMixin.java:342) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServerMixin.java:546) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServerMixin.java:460) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23202!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A,re:mixin}
+	at net.minecraft.server.MinecraftServer.handler$zle000$arclight$enablePlugins(MinecraftServerMixin.java:2137) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServerMixin.java:385) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServerMixin.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23243!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[01Jan2025 19:13:36.763] [Server thread/INFO] [BeautyQuests/]: Loaded next particles: SMOKE_NORMAL in shape SPOT
+[01Jan2025 19:13:37.260] [Server thread/INFO] [Shopkeepers/]: Enabling Shopkeepers v2.17.2
+[01Jan2025 19:13:37.297] [Server thread/ERROR] [STDERR/]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01Jan2025 19:13:41.012] [Server thread/INFO] [Shopkeepers/]: Loading the data of 1 shopkeepers ...
+[01Jan2025 19:13:41.022] [Server thread/INFO] [ItemTag/]: Enabling ItemTag v3.5.1
+[01Jan2025 19:13:41.037] [Server thread/INFO] [Console/]: [ItemTag] Data using Spigot PersistentDataContainer
+[01Jan2025 19:13:41.038] [Server thread/INFO] [Console/]: [ItemTag] EquipmentChangeListener
+[01Jan2025 19:13:41.061] [Server thread/INFO] [Console/]: [ItemTag] # Enabled (took 39 ms)
+[01Jan2025 19:13:41.123] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[01Jan2025 19:13:41.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jan2025 19:13:47.559] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.560] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.560] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.561] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.561] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.561] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.562] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.562] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.563] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.563] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.564] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.564] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.565] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:47.631] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 19:13:48.132] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[01Jan2025 19:13:48.631] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[01Jan2025 19:13:49.029] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7898 ms
+[01Jan2025 19:13:49.029] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.316s)! For help, type "help"
+[01Jan2025 19:13:49.064] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Jan2025 19:13:49.064] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[01Jan2025 19:13:49.066] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: chunksending.json
+[01Jan2025 19:13:49.066] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[01Jan2025 19:13:49.067] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[01Jan2025 19:13:49.067] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[01Jan2025 19:13:49.075] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is '100.85.172.113'
+[01Jan2025 19:13:49.077] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[01Jan2025 19:13:49.198] [Server thread/INFO] [BeautyQuests/]: 1 quests loaded (0.04s)!
+[01Jan2025 19:13:49.200] [Craft Scheduler Thread - 0/INFO] [Console/]: [ItemEdit] New Update at https://spigotmc.org/resources/40993
+[01Jan2025 19:13:49.204] [Server thread/INFO] [BeautyQuests/]: Periodic saves task started (18000 ticks). Task ID: 16
+[01Jan2025 19:15:28.007] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player DenverKxng is 92bacc08-07e1-34b6-901c-37eb5a89026e
+[01Jan2025 19:15:29.991] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DenverKxng[/100.116.71.111:18579] logged in with entity id 2396 at (-543.6155046603159, 146.38066645414986, -237.56581825561258)
+[01Jan2025 19:15:31.846] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DenverKxng (18)
+[01Jan2025 19:15:31.847] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DenverKxng
+[01Jan2025 19:15:44.955] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[01Jan2025 19:15:45.963] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[01Jan2025 19:15:45.966] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player DenverKxng (92bacc08-07e1-34b6-901c-37eb5a89026e) successfully connected to voice chat
+[01Jan2025 19:16:29.941] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DenverKxng issued server command: /gamemode creative
+[01Jan2025 19:16:29.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DenverKxng: Set own game mode to Creative Mode]

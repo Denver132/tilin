@@ -1,0 +1,1 @@
+scoreboard players set @e[tag=fogata_h] cpala.ded3s.anim 200

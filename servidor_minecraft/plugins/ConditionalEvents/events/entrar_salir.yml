@@ -1,0 +1,13 @@
+Events:
+  entrar:
+    type: player_join
+    actions:
+      default:
+      - 'hide_join_message: true'
+      - 'console_command: tellraw @a [{"text":"\uEAA3 "},{"text":"%player%","color":"dark_green","bold":true},{"text":" se ha conectado","color":"dark_green"}]'
+  salir:
+    type: player_leave
+    actions:
+      default:
+      - 'hide_leave_message: true'
+      - 'console_command: tellraw @a [{"text":"\uEAA0 "},{"text":"%player%","color":"red","bold":true},{"text":" se ha desconectado","color":"red"}]'

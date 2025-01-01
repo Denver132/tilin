@@ -1,0 +1,13 @@
+filename = 'CraterLib-Forge-1.20-2.1.1.jar'
+name = 'CraterLib'
+side = 'both'
+
+[download]
+hash = '71087188b28249eba8d1d9bda6262e02b3ca411c223c30811f06fdf49eff8acf782b03279e6513f19aa15e835f3a74b2ccf8e34983c2c92c9ce212281752fd4c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Nn8Wasaq/versions/lrhBfLA7/CraterLib-Forge-1.20-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'Nn8Wasaq'
+version = 'lrhBfLA7'

@@ -1,0 +1,1 @@
+give @s stick{CustomModelData:10,display:{Name:'{"text":"Cuchara","color":"yellow","italic":false}'}} 16

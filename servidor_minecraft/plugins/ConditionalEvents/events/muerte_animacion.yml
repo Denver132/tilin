@@ -1,0 +1,23 @@
+Events:
+  cpala_muerte_anim:
+    type: custom
+    custom_event_data:
+      event: org.bukkit.event.entity.PlayerDeathEvent
+      player_variable: getEntity()
+      variables_to_capture:
+      - '%death_world%;getEntity().getLocation().getWorld().getName()'
+      - '%death_x%;getEntity().getLocation().getX()'
+      - '%death_y%;getEntity().getLocation().getY()'
+      - '%death_z%;getEntity().getLocation().getZ()'
+      - '%death_yaw%;getEntity().getLocation().getYaw()'
+      - '%death_pitch%;getEntity().getLocation().getPitch()'
+      - '%death_message%;getDeathMessage()'
+    actions:
+      default:
+      - 'wait_ticks: 5'
+      - 'gamemode: SPECTATOR'
+      - 'console_command: tag @a add anim.muerte'
+      - 'teleport: %death_world%;%death_x%;%death_y%;%death_z%;%death_yaw%;%death_pitch%'
+      - 'to_all: actionbar: &4%death_message%;80'
+      - 'wait: 6'
+      - 'console_command: ban %player% Has sido baneado por morir.'

@@ -1,0 +1,81 @@
+Events:
+  ruletas:
+    type: player_command
+    conditions:
+    - '%main_command% == /ruleta'
+    - '%arg_1% == verde execute verde'
+    - '%arg_1% == turqueza execute turqueza'
+    - '%arg_1% == rosada execute rosada'
+    - '%arg_1% == roja execute roja'
+    - '%arg_1% == naranja execute naranja'
+    - '%arg_1% == morada execute morada'
+    - '%arg_1% == azul execute azul'
+    - '%arg_1% == amarilla execute amarilla'
+    - '%player% == AdeAbel'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.muerte'
+      verde:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.ruleta.verde'
+      - 'wait: 14'
+      - 'to_all: json_message: ["",{"text":"\u27a4 ","color":"#00c70a"},
+                               {"text":"NOTIFICACIONES:","bold":true,"color":"#00c70a"},{"text":"\n\n"},
+                               {"text":"Texto de prueba para ruletas del dedsafio por AdeAbel","color":"#12c64f"}]'
+      turqueza:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.ruleta.turqueza'
+      - 'wait: 14'
+      - 'to_all: json_message: ["",{"text":"\u27a4 ","color":"#04c4bc"},
+                               {"text":"MISI�N:","bold":true,"color":"#04c4bc"},{"text":"\n\n"},
+                               {"text":"Mata a 200 Zombies","color":"#5ed6d5"}]'
+      rosada:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.ruleta.rosada'
+      - 'wait: 14'
+      - 'to_all: json_message: ["",{"text":"\u27a4 ","color":"#f659ba"},
+                               {"text":"CAMBIO DE DIFICULTAD:","bold":true,"color":"#f659ba"},{"text":"\n\n"},
+                               {"text":"Texto de prueba para ruletas del dedsafio por AdeAbel","color":"#f27ad9"}]'
+      roja:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.ruleta.roja'
+      - 'wait: 14'
+      - 'to_all: json_message: ["",{"text":"\u27a4 ","color":"#fe344b"},
+                               {"text":"MOMENTO REVIIL:","bold":true,"color":"#fe344b"},{"text":"\n\n"},
+                               {"text":"Texto de prueba para ruletas del dedsafio por AdeAbel","color":"#fa6074"}]'
+      naranja:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.ruleta.naranja'
+      - 'wait: 14'
+      - 'to_all: json_message: ["",{"text":"\u27a4 ","color":"#CD8A15"},
+                               {"text":"CAMBIO DE DIFICULTAD:","bold":true,"color":"#CD8A15"},{"text":"\n\n"},
+                               {"text":"Texto de prueba para ruletas del dedsafio por AdeAbel","color":"#A49169"}]'
+      morada:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.ruleta.morada'
+      - 'wait: 14'
+      - 'to_all: json_message: ["",{"text":"\u27a4 ","color":"#9c37fe"},
+                               {"text":"CASTIGO:","bold":true,"color":"#9c37fe"},{"text":"\n\n"},
+                               {"text":"Texto de prueba para ruletas del dedsafio por AdeAbel","color":"#af52fa"}]'
+      azul:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.ruleta.azul'
+      - 'wait: 14'
+      - 'to_all: json_message: ["",{"text":"\u27a4 ","color":"#302ee5"},
+                               {"text":"CAMBIO DE DIFICULTAD:","bold":true,"color":"#302ee5"},{"text":"\n\n"},
+                               {"text":"Texto de prueba para ruletas del dedsafio por AdeAbel","color":"#4470d3"}]'
+      amarilla:
+      - 'cancel_event: true'
+      - 'console_command: tag @a add anim.ruleta.amarilla'
+      - 'wait: 14'
+      - 'to_all: json_message: ["",{"text":"\u27a4 ","color":"#E2CE01"},
+                               {"text":"DEDCICLOPEDIA:","bold":true,"color":"#E2CE01"},{"text":"\n\n"},
+                               {"text":"Texto de prueba para ruletas del dedsafio por AdeAbel","color":"#D7A800"}]'
+  muerte:
+    type: player_death
+    actions:
+      default:
+      - 'console_command: tag @a add anim.muerte'
+      - 'player_command_as_op: title @a actionbar {"text":"%player% ha muerto","color":"dark_red"}'
+      - 'gamemode: SPECTATOR'

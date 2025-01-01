@@ -1,0 +1,141 @@
+# |------------------------------------------------------------------------
+# |                       CommandPanels Template File
+# |                          Official Panel v1.1
+# | https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+# |------------------------------------------------------------------------
+  panels:
+    menu_template:
+      rows: 3
+      title: ''
+      custom-item:
+        cuchara:
+          material: STICK
+          stack: 1
+          customdata: 10
+          name: 'Cuchara'
+      item:
+        '4':
+          material: cps= itssos
+          customdata: 6
+          stack: 1
+          name: '&e&lJugador'
+        '13':
+          material: STICK
+          customdata: 6
+          stack: 1
+          name: ' '
+        '19':
+          material: STICK
+          customdata: 2
+          stack: 1
+          name: ' '
+          commands:
+          - 'open= menu_anterior'
+        '22':
+          material: STICK
+          customdata: 5
+          stack: 1
+          name: '&fRevivir a: &e&lJugador'
+          commands:
+          - 'item-paywall= cuchara 1'
+          - 'console= function cpaladeds3:cmd/start_revive'
+          - 'console= pardon Jugador'
+          - cpc
+        '25':
+          material: STICK
+          customdata: 3
+          stack: 1
+          name: ' '
+          commands:
+          - 'open= menu_siguiente'
+          
+          
+          
+    itssos:
+      rows: 3
+      title: ''
+      custom-item:
+        cuchara:
+          material: STICK
+          stack: 1
+          customdata: 10
+          name: 'Cuchara'
+      item:
+        '4':
+          material: cps= itssos
+          customdata: 6
+          stack: 1
+          name: '&e&litssos'
+        '13':
+          material: STICK
+          customdata: 6
+          stack: 1
+          name: ' '
+        '19':
+          material: STICK
+          customdata: 2
+          stack: 1
+          name: ' '
+        '22':
+          material: STICK
+          customdata: 5
+          stack: 1
+          name: '&fRevivir a: &e&litssos'
+          commands:
+          - 'item-paywall= cuchara 1'
+          - 'console= function cpaladeds3:cmd/start_revive'
+          - 'console= pardon itssos'
+          - cpc
+        '25':
+          material: STICK
+          customdata: 3
+          stack: 1
+          name: ' '
+          commands:
+          - 'open= kirnt2027'        
+          
+          
+    kirnt2027:
+      rows: 3
+      title: ''
+      custom-item:
+        cuchara:
+          material: STICK
+          stack: 1
+          customdata: 10
+          name: 'Cuchara'
+      item:
+        '4':
+          material: cps= kirnt2027
+          customdata: 6
+          stack: 1
+          name: '&e&lkirnt2027'
+        '13':
+          material: STICK
+          customdata: 6
+          stack: 1
+          name: ' '
+        '19':
+          material: STICK
+          customdata: 2
+          stack: 1
+          name: ' '
+          commands:
+          - 'open= itssos'
+        '22':
+          material: STICK
+          customdata: 5
+          stack: 1
+          name: '&fRevivir a: &e&lkirnt2027'
+          commands:
+          - 'item-paywall= cuchara 1'
+          - 'console= function cpaladeds3:cmd/start_revive'
+          - 'console= pardon kirnt2027'
+          - cpc
+        '25':
+          material: STICK
+          customdata: 3
+          stack: 1
+          name: ' '
+          commands:
+          - 'open= menu_siguiente' 

@@ -1,0 +1,23 @@
+startableFromGUI: true
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: DEDSAFIO3_DEDITA_MISION
+name: §e Mision Dia 1
+failOnDeath: true
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            1360a282-a0c6-4599-9ed0-3b89c451ddba:
+              amount: 25
+              object:
+                factoryName: bukkitEntity
+                value: CREEPER
+          stageType: MOBS
+          customText: §6 Mata 24 crepers para obtener la dedita diaria
+          text: §a Intenta no Morir Suerte
+      endingStages: {}
+id: 0

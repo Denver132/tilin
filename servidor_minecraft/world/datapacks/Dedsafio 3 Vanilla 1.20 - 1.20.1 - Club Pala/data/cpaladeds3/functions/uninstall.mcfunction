@@ -1,0 +1,1 @@
+scoreboard objectives remove cpala.ded3s.anim
